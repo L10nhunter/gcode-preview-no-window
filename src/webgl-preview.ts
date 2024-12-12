@@ -432,7 +432,7 @@ export class WebGLPreview {
     const [w, h] = [this.canvas.offsetWidth, this.canvas.offsetHeight];
     this.camera.aspect = w / h;
     this.camera.updateProjectionMatrix();
-    this.renderer.setPixelRatio(window.devicePixelRatio);
+    //this.renderer.setPixelRatio(window.devicePixelRatio);
     this.renderer.setSize(w, h, false);
   }
 
